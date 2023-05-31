@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form</title>
+</head>
+<body>
+
+<h2>Fill the Form</h2>
+
+<form method="post" action="FormServlet">
+
+	Full Name: <input type="text" name="name"><br><br>
+	
+	Address: <input type="text" name="address"><br><br>
+	
+	Date Of Birth: <input type="date" name="dob"><br><br>
+	
+	Phone No: <input type="number" name="pno"><br><br>
+	
+	Gender: <input type="radio" name="gender" value="male" >Male
+			<input type="radio" name="gender" value="female">Female
+			<br><br>
+	<!--  		
+	Language:<input type="checkbox" name="lang" value="Java">Java
+			<input type="checkbox" name="lang" value="PHP">PHP
+			<input type="checkbox" name="lang" value="Python">Python
+			<br><br>
+	-->	
+	
+	
+	Deuration: <select name="course">
+				<option value="6 Month">6 Month</option>
+				<option value="9 Month">9 Month</option>
+				<option value="1 Year">1 Year</option>
+			  </select><br><br>
+			
+	Any quires: <textarea name="qns"></textarea> 
+	 <input type="submit" value="Save"><input type="reset">
+
+</form>
+
+<a href="ViewServlet">View Data</a>
+
+
+</body>
+</html>
